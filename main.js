@@ -17,6 +17,6 @@ function groceryShopping(e) {
   document.body.append(mainDiv);
 }
 window.addEventListener("load", function () {
-  const submitBtn = document.querySelector(".btn");
-  submitBtn.addEventListener("click", groceryShopping);
+  const form = document.querySelector(".btn");
+  form.addEventListener("click", groceryShopping);
 });
